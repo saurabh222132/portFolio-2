@@ -11,7 +11,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={8}>
             <span className="tagline"> Welcome to my PortFolio</span>
             <h1>
-              {`Saurabh Vishwakrma`}
+              {`Saurabh Vishwakarma`}
               {/* <span className="wrap">a Web developer</span> */}
               <span style={{ color: " rgba(190, 10, 50)" }}>
                 <Typewriter
