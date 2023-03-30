@@ -1,6 +1,5 @@
 {
   "name": "my-port-folio",
-  "homepage": "https://saurabh222132.github.io/PortFolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
