@@ -10,7 +10,7 @@ import Projects from "./Components/projects/project";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar />
       <Banner />
       <Education />
@@ -19,7 +19,7 @@ function App() {
       <Contact />
 
       <Footer />
-    </div>
+    </>
   );
 }
 
