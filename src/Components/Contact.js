@@ -45,7 +45,7 @@ export const Contact = () => {
       );
 
     alert(
-      "We have regrate!.We are working on the mailing feature. You can connect me on linkedIN."
+      "Thanks for connecting me! A system generated mail sent to your email please check your mail."
     );
   };
 
