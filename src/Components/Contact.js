@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { Row, Col } from "react-bootstrap";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import contactImg from "../assets/img/contact-img.svg";
 
 export const Contact = () => {
+  const form = useRef();
+
   const formInitialDetails = {
     firstName: "",
     lastName: "",
@@ -20,11 +24,31 @@ export const Contact = () => {
   const onFormUpdate = (category, value) => {
     setFormDetails({ ...formDetails, [category]: value });
   };
-  const handleSubmit = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_pz2c3xh",
+        "template_r6kcc92",
+        form.current,
+        "34BniZOK4EZIzs9Ji"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
     alert(
       "We have regrate!.We are working on the mailing feature. You can connect me on linkedIN."
     );
   };
+
   return (
     <section className="contact" id="connect">
       <Row className="align-items-center px-3">
@@ -35,12 +59,13 @@ export const Contact = () => {
         {/* Coloum 2 is for input details on rightside */}
         <Col size={12} md={6}>
           <h2>Get In Touch</h2>
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={sendEmail}>
             <Row>
               <Col sm={6} className="px-1">
                 <input
                   type="text"
                   value={formDetails.firstName}
+                  name="first_name"
                   placeholder="first name "
                   onChange={(e) => onFormUpdate("firstName", e.target.value)}
                 />
@@ -49,6 +74,7 @@ export const Contact = () => {
                 <input
                   type="text"
                   value={formDetails.lastName}
+                  name="last_name"
                   placeholder="last name "
                   onChange={(e) => onFormUpdate("lastName", e.target.value)}
                 />
@@ -59,6 +85,7 @@ export const Contact = () => {
                 <input
                   type="email"
                   value={formDetails.email}
+                  name="user_email"
                   placeholder=" Enter you email "
                   onChange={(e) => onFormUpdate("email", e.target.value)}
                 />
@@ -67,6 +94,7 @@ export const Contact = () => {
                 <input
                   type="tel"
                   value={formDetails.phone}
+                  name="phone"
                   placeholder="enter you phone"
                   onChange={(e) => onFormUpdate("phone", e.target.value)}
                 />
@@ -76,9 +104,10 @@ export const Contact = () => {
                   rows="6"
                   value={formDetails.message}
                   placeholder="Message"
+                  name="message"
                   onChange={(e) => onFormUpdate("message", e.target.value)}
                 ></textarea>
-                <button type="submit">
+                <button type="submit" value="send">
                   <span>{buttonText}</span>
                 </button>
               </Col>

@@ -101,7 +101,7 @@ function NavBar() {
               <a href="https://www.linkedin.com/in/saurabhvishwakarma111/">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#iconLink2">
+              <a href="https://www.facebook.com/p/100076067193404/">
                 <img src={navIcon2} alt="" />
               </a>
               <a href="https://www.instagram.com/saurabhvishwakarma705/">

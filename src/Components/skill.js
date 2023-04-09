@@ -10,10 +10,6 @@ export const Skill = () => {
       <Container className="skl">
         <Row>
           <h1 className="h1 text-center">Skills</h1>
-          <p className="align-item-center text-center">
-            I have the knoledge of working in the languages and tools as a Full
-            Stack Developer.
-          </p>
         </Row>
 
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">

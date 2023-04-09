@@ -23,6 +23,7 @@ const ProjectData = [
     description:
       "Created a login authentication page using MERN stack with the login and register functionality",
     imgUrl: projectImg3,
+    demolink: "https://tranquil-capybara-a2e337.netlify.app/",
     githublink:
       "https://github.com/saurabh222132/Login-authentication-page-MERN-Stack-",
   },
