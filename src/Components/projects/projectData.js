@@ -2,6 +2,7 @@ import projectImg1 from "./project-Image/project-img1.png";
 import projectImg2 from "./project-Image/project-img2.png";
 import projectImg3 from "./project-Image/project-img3.png";
 import projectImg4 from "./project-Image/project-img4.JPG";
+import projectImg5 from "./project-Image/project-img5.JPG";
 
 const ProjectData = [
   {
@@ -35,6 +36,14 @@ const ProjectData = [
     demolink: "https://admirable-starship-e4b7d0.netlify.app/",
     githublink:
       "https://github.com/saurabh222132/FullStack-todo-app-frontend_backend",
+  },
+  {
+    title: "Movie App ",
+    description:
+      "Movie app created using React and themoviedb api ,it shows the different-2 movie lists.",
+    imgUrl: projectImg5,
+    demolink: "https://main--comforting-capybara-9f0bcc.netlify.app/",
+    githublink: "https://github.com/saurabh222132/Movie_app",
   },
 ];
 
