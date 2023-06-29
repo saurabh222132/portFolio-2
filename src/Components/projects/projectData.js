@@ -3,6 +3,7 @@ import projectImg2 from "./project-Image/project-img2.png";
 import projectImg3 from "./project-Image/project-img3.png";
 import projectImg4 from "./project-Image/project-img4.JPG";
 import projectImg5 from "./project-Image/project-img5.JPG";
+import projectImg6 from "./project-Image/project-img6.JPG";
 
 const ProjectData = [
   {
@@ -44,6 +45,14 @@ const ProjectData = [
     imgUrl: projectImg5,
     demolink: "https://main--comforting-capybara-9f0bcc.netlify.app/",
     githublink: "https://github.com/saurabh222132/Movie_app",
+  },
+  {
+    title: "Pokemon-adoption-sanario",
+    description:
+      "client can register and login and adopt pokemon and feed them.",
+    imgUrl: projectImg6,
+    demolink: "https://teal-torte-73cb48.netlify.app/",
+    githublink: "https://github.com/saurabh222132/adopt_pokemon",
   },
 ];
 
