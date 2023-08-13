@@ -54,6 +54,14 @@ const ProjectData = [
     demolink: "https://teal-torte-73cb48.netlify.app/",
     githublink: "https://github.com/saurabh222132/adopt_pokemon",
   },
+  {
+    title: "Ecommerce app with order and checkout functions",
+    description:
+      "It has user and admin login pannel , user can add item to cart , order , checkout etc // admin can see all status and dispatch items",
+    imgUrl: projectImg7,
+    demolink: "https://main--stupendous-hotteok-6cf370.netlify.app/",
+    githublink: "https://github.com/saurabh222132/portFolio-2",
+  },
 ];
 
 export default ProjectData;
