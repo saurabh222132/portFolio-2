@@ -4,7 +4,7 @@ import projectImg3 from "./project-Image/project-img3.png";
 import projectImg4 from "./project-Image/project-img4.JPG";
 import projectImg5 from "./project-Image/project-img5.JPG";
 import projectImg6 from "./project-Image/project-img6.JPG";
-import projectImg7 from "./project-Image/project-img7.JPG";
+import projectImg7 from "./project-Image/project-img7.PNG";
 
 const ProjectData = [
   {
