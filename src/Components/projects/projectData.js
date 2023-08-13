@@ -61,7 +61,7 @@ const ProjectData = [
       "It has user and admin login pannel , user can add item to cart , order , checkout etc // admin can see all status and dispatch items",
     imgUrl: projectImg7,
     demolink: "https://main--stupendous-hotteok-6cf370.netlify.app/",
-    githublink: "https://github.com/saurabh222132/portFolio-2",
+    githublink: "https://github.com/saurabh222132/newEcommerceapp",
   },
 ];
 
