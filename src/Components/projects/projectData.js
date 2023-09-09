@@ -69,7 +69,7 @@ const ProjectData = [
     description:
       "This app shows the trending news world wide and has different- different cotegary of news.",
     imgUrl: projectImg8,
-    demolink: "https://app.netlify.com/sites/leafy-banoffee-49d861/deploys",
+    demolink: "https://leafy-banoffee-49d861.netlify.app/",
     githublink: "https://github.com/saurabh222132/newsapp",
   },
 ];
