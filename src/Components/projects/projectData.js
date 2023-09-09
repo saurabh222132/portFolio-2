@@ -63,6 +63,14 @@ const ProjectData = [
     demolink: "https://main--stupendous-hotteok-6cf370.netlify.app/",
     githublink: "https://github.com/saurabh222132/newEcommerceapp",
   },
+  {
+    title: "New App",
+    description:
+      "This app shows the trending news world wide and has different- different cotegary of news.",
+    imgUrl: projectImg7,
+    demolink: "https://app.netlify.com/sites/leafy-banoffee-49d861/deploys",
+    githublink: "https://github.com/saurabh222132/newsapp",
+  },
 ];
 
 export default ProjectData;
