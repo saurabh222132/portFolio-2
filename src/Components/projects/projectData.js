@@ -5,6 +5,7 @@ import projectImg4 from "./project-Image/project-img4.JPG";
 import projectImg5 from "./project-Image/project-img5.JPG";
 import projectImg6 from "./project-Image/project-img6.JPG";
 import projectImg7 from "./project-Image/project-img7.PNG";
+import projectImg8 from "./project-Image/project-img7.PNG";
 
 const ProjectData = [
   {
@@ -67,7 +68,7 @@ const ProjectData = [
     title: "New App",
     description:
       "This app shows the trending news world wide and has different- different cotegary of news.",
-    imgUrl: projectImg7,
+    imgUrl: projectImg8,
     demolink: "https://app.netlify.com/sites/leafy-banoffee-49d861/deploys",
     githublink: "https://github.com/saurabh222132/newsapp",
   },
