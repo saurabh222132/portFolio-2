@@ -5,7 +5,7 @@ import projectImg4 from "./project-Image/project-img4.JPG";
 import projectImg5 from "./project-Image/project-img5.JPG";
 import projectImg6 from "./project-Image/project-img6.JPG";
 import projectImg7 from "./project-Image/project-img7.PNG";
-import projectImg8 from "./project-Image/project-img7.PNG";
+import projectImg8 from "./project-Image/project-img8.PNG";
 
 const ProjectData = [
   {
@@ -65,7 +65,7 @@ const ProjectData = [
     githublink: "https://github.com/saurabh222132/newEcommerceapp",
   },
   {
-    title: "New App",
+    title: "News App",
     description:
       "This app shows the trending news world wide and has different- different cotegary of news.",
     imgUrl: projectImg8,
